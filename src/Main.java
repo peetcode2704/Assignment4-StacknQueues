@@ -11,6 +11,8 @@ public class Main {
         System.out.println(decoder.decodeString("2[abc]3[cd]ef"));
         System.out.println(decoder.decodeString("3[a2[c]]"));
 
+        InfixtoPostfix I2P = new InfixtoPostfix();
+        System.out.println(I2P.infix2Postfix("a+b*(c^d-e)^(f+g*h)-i"));
+        System.out.println(I2P.infix2Postfix("2*3+4*5"));
     }
-
 }
