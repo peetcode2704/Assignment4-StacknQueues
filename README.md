@@ -1,6 +1,6 @@
 # Assignment 4 – Stacks and Queues
 
-**Deadline:** Thursday, February 28, 2025, 9:59 pm  
+**Deadline:** Friday, February 28, 2025, 9:59 pm  
 
 ## Objectives:
 - Familiarize yourself with the Stack and Queue data structures. **Use ONLY Stacks and Queues** for this assignment.
