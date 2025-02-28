@@ -5,5 +5,12 @@ public class Main {
         String a = "([])";
         balancedBracket test = new balancedBracket();
         System.out.println(test.isBalanced(a));
+
+        DecodeString decoder = new DecodeString();
+        System.out.println(decoder.decodeString("3[a]2[bc]"));
+        System.out.println(decoder.decodeString("2[abc]3[cd]ef"));
+        System.out.println(decoder.decodeString("3[a2[c]]"));
+
     }
+
 }
